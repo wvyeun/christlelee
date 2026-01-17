@@ -7,9 +7,9 @@ import atlassianLogo from "@/assets/atlassian.png";
 import amazonLogo from "@/assets/amazon.webp";
 import awsLogo from "@/assets/aws.png";
 import accentureLogo from "@/assets/accenture.png";
-import darioAmodei from "@/assets/dario-amodei.jp2";
+import darioAmodei from "@/assets/dario-amodei.jpg";
 import demisHassabis from "@/assets/demis-hassabis.jpg";
-import samAltman from "@/assets/sam-altman.jp2";
+import samAltman from "@/assets/sam-altman.jpg";
 
 const searchQuery = "curiosity, continuous learning, technical excellence, collaboration, innovation";
 
