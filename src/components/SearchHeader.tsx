@@ -1,5 +1,5 @@
 import { Search, Mic, Camera, X } from "lucide-react";
-import GoogleLogo from "./GoogleLogo";
+import CoogleLogo from "./CoogleLogo";
 
 interface SearchHeaderProps {
   query: string;
@@ -9,7 +9,7 @@ const SearchHeader = ({ query }: SearchHeaderProps) => {
   return (
     <header className="sticky top-0 z-50 bg-background border-b border-border-light">
       <div className="flex items-center gap-4 md:gap-6 px-4 py-3">
-        <GoogleLogo />
+        <CoogleLogo />
         
         <div className="flex-1 max-w-2xl">
           <div className="flex items-center bg-background border border-border-light rounded-full px-4 py-2 hover:shadow-md transition-shadow focus-within:shadow-md">
