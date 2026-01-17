@@ -38,27 +38,27 @@ const searchResults = [
 
 const knowledgePanelData = {
   about:
-    'I help Strategic and Enterprise customers unlock the full potential of their tech investments—because nothing haunts me more than a million-dollar SaaS contract collecting digital dust. Whether it\'s navigating "too many cooks in the IT kitchen" or scaling AI adoption faster than a trending ChatGPT prompt, I help turn curiosity into enterprise-wide transformation because in the age of AI, the biggest competitor isn\'t another company, it\'s an AI agent that never takes PTO.',
+    'Christle Lee helps Strategic and Enterprise customers unlock the full potential of their tech investments because nothing haunts her more than a million-dollar SaaS contract collecting digital dust. Whether it\'s navigating "too many cooks in the IT kitchen" or scaling AI adoption faster than a trending ChatGPT prompt, she helps turn curiosity into enterprise-wide transformation because in the age of AI, the biggest competitor isn\'t another company, it\'s an AI agent that never takes PTO.',
   education: [
     "Master of Neuroscience · Kings College London",
     "Bachelor of Psychology (Hons) · Macquarie University",
   ],
   peopleAlsoSearchFor: [
     {
-      name: "Jeff Bezos",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=face",
+      name: "Dario Amodei",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Dario_Amodei_World_Economic_Forum_2025.jpg/440px-Dario_Amodei_World_Economic_Forum_2025.jpg",
+    },
+    {
+      name: "Demis Hassabis",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Demis_Hassabis_Royal_Society.jpg/440px-Demis_Hassabis_Royal_Society.jpg",
     },
     {
       name: "Elon Musk",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-    },
-    {
-      name: "Andrew Ng",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/440px-Elon_Musk_Royal_Society_%28crop2%29.jpg",
     },
     {
       name: "Sam Altman",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&h=150&fit=crop&crop=face",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Sam_Altman_%28cropped2%29.jpg/440px-Sam_Altman_%28cropped2%29.jpg",
     },
   ],
 };
