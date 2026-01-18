@@ -85,10 +85,11 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <SearchHeader query={searchQuery} />
 
-      <main className="px-4 md:px-8 lg:px-16 py-6">
-        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
-          {/* Main results column */}
-          <div className="flex-1 max-w-2xl">
+      <main className="py-6">
+        <div className="max-w-5xl mx-auto px-4 md:px-8">
+          <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-12">
+            {/* Main results column */}
+            <div className="flex-1 max-w-2xl">
             {/* Did you mean */}
             <div className="mb-6">
               <span className="text-google-red text-sm">Did you mean: </span>
@@ -114,13 +115,14 @@ const Index = () => {
             <RelatedSearches searches={relatedSearches} />
           </div>
 
-          {/* Knowledge panel - sidebar */}
-          <div className="lg:w-80 xl:w-96">
-            <KnowledgePanel
-              about={knowledgePanelData.about}
-              education={knowledgePanelData.education}
-              peopleAlsoSearchFor={knowledgePanelData.peopleAlsoSearchFor}
-            />
+            {/* Knowledge panel - sidebar */}
+            <div className="lg:w-80 xl:w-96">
+              <KnowledgePanel
+                about={knowledgePanelData.about}
+                education={knowledgePanelData.education}
+                peopleAlsoSearchFor={knowledgePanelData.peopleAlsoSearchFor}
+              />
+            </div>
           </div>
         </div>
       </main>
