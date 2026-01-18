@@ -8,7 +8,7 @@ interface SearchHeaderProps {
 const SearchHeader = ({ query }: SearchHeaderProps) => {
   return (
     <header className="sticky top-0 z-50 bg-background border-b border-border-light">
-      <div className="flex items-center gap-4 md:gap-6 px-4 py-3">
+      <div className="max-w-5xl mx-auto flex items-center gap-4 md:gap-6 px-4 py-3">
         <CoogleLogo />
         
         <div className="flex-1 max-w-2xl">
