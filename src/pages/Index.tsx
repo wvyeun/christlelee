@@ -92,7 +92,7 @@ const Index = () => {
             {/* Main results column */}
             <div className="flex-1 max-w-2xl">
             {/* Did you mean */}
-            <div className="mb-2">
+            <div className="mb-6">
               <span className="text-google-red text-sm">Did you mean: </span>
               <a href="#" className="text-link-blue text-sm italic hover:underline">
                 Christle Lee?
