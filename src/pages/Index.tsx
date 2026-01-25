@@ -11,7 +11,7 @@ import darioAmodei from "@/assets/dario-amodei.jpg";
 import demisHassabis from "@/assets/demis-hassabis.jpg";
 import samAltman from "@/assets/sam-altman.jpg";
 
-const searchQuery = "curiosity, continuous learning, technical excellence, collaboration, innovation";
+const searchQuery = "curious, collaborative, customer-focused, continuous learning";
 
 const searchResults = [
   {

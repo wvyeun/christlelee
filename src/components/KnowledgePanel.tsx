@@ -14,7 +14,7 @@ interface KnowledgePanelProps {
 const KnowledgePanel = ({ about, education, peopleAlsoSearchFor }: KnowledgePanelProps) => {
   return (
     <aside className="knowledge-panel bg-card">
-      <h2 className="text-xl font-semibold text-foreground mb-4">About Christle Lee</h2>
+      <h2 className="text-xl font-semibold text-foreground mb-4">Christle Lee</h2>
       
       <p className="text-sm text-text-gray leading-relaxed mb-6">
         {about}
