@@ -88,7 +88,7 @@ const Index = () => {
 
       <main className="py-6">
         <div className="max-w-5xl mx-auto px-4 md:px-8">
-          <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-12">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
             {/* Main results column */}
             <div className="flex-1 max-w-2xl">
             {/* Did you mean */}
