@@ -88,48 +88,48 @@ const Index = () => {
 
       <main className="py-6">
         <div className="max-w-5xl mx-auto px-4 md:px-8">
-          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
-            {/* Main results column */}
-            <div className="flex-1 max-w-2xl">
-            {/* Did you mean */}
-            <div className="mb-6">
-              <span className="text-google-red text-sm">Did you mean: </span>
-              <a href="#" className="text-link-blue text-sm italic hover:underline">
-                Christle Lee?
-              </a>
-            </div>
-
-            {/* Name and title */}
-            <div className="mb-6">
-              <h1 className="text-3xl font-normal text-foreground">Christle Lee</h1>
-              <p className="text-sm text-text-gray mt-1">Working slightly ahead of the Roadmap</p>
-            </div>
-
-            {/* Search results */}
-            <div>
-              {searchResults.map((result, index) => (
-                <SearchResult
-                  key={index}
-                  siteName={result.siteName}
-                  url={result.url}
-                  title={result.title}
-                  description={result.description}
-                />
-              ))}
-            </div>
-
-            {/* Related searches */}
-            <RelatedSearches searches={relatedSearches} />
+          {/* Did you mean */}
+          <div className="mb-6 max-w-2xl">
+            <span className="text-google-red text-sm">Did you mean: </span>
+            <a href="#" className="text-link-blue text-sm italic hover:underline">
+              Christle Lee?
+            </a>
           </div>
 
-            {/* Knowledge panel - sidebar */}
-            <div className="lg:w-80 xl:w-96">
+          {/* Name and title */}
+          <div className="mb-6 max-w-2xl">
+            <h1 className="text-3xl font-normal text-foreground">Christle Lee</h1>
+            <p className="text-sm text-text-gray mt-1">Working slightly ahead of the Roadmap</p>
+          </div>
+
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
+            {/* Knowledge panel - shows first on mobile, sidebar on desktop */}
+            <div className="order-first lg:order-last lg:w-80 xl:w-96">
               <KnowledgePanel
                 about={knowledgePanelData.about}
                 education={knowledgePanelData.education}
                 linkedIn={knowledgePanelData.linkedIn}
                 peopleAlsoSearchFor={knowledgePanelData.peopleAlsoSearchFor}
               />
+            </div>
+
+            {/* Main results column */}
+            <div className="flex-1 max-w-2xl">
+              {/* Search results */}
+              <div>
+                {searchResults.map((result, index) => (
+                  <SearchResult
+                    key={index}
+                    siteName={result.siteName}
+                    url={result.url}
+                    title={result.title}
+                    description={result.description}
+                  />
+                ))}
+              </div>
+
+              {/* Related searches */}
+              <RelatedSearches searches={relatedSearches} />
             </div>
           </div>
         </div>
