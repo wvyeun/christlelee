@@ -50,11 +50,12 @@ const searchResults = [
 
 const knowledgePanelData = {
   about:
-    'Christle Lee helps Strategic and Enterprise customers unlock the full potential of their tech investments because nothing haunts her more than a million-dollar SaaS contract collecting digital dust. Whether it\'s navigating "too many cooks in the IT kitchen" or scaling AI adoption faster than a trending ChatGPT prompt, she helps turn curiosity into enterprise-wide transformation because in the age of AI, the biggest competitor isn\'t another company, it\'s an AI agent that never takes PTO.',
+    'Christle Lee helps Strategic and Enterprise customers unlock the full potential of their tech investments, because nothing haunts her more than million-dollar SaaS contracts collecting digital dust. She navigates "too many cooks in the IT kitchen" and scales AI adoption from experimentation to enterprise-wide execution, knowing that in the age of AI, the biggest competitor isn\'t another company, it\'s an AI agent that never takes PTO.',
   education: [
     "Master of Neuroscience · Kings College London",
     "Bachelor of Psychology (Hons) · Macquarie University",
   ],
+  linkedIn: "https://www.linkedin.com/in/christle-lee/",
   peopleAlsoSearchFor: [
     {
       name: "Dario Amodei",
@@ -120,6 +121,7 @@ const Index = () => {
               <KnowledgePanel
                 about={knowledgePanelData.about}
                 education={knowledgePanelData.education}
+                linkedIn={knowledgePanelData.linkedIn}
                 peopleAlsoSearchFor={knowledgePanelData.peopleAlsoSearchFor}
               />
             </div>
