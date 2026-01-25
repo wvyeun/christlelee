@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Linkedin } from "lucide-react";
 
 interface Person {
   name: string;
@@ -8,10 +8,11 @@ interface Person {
 interface KnowledgePanelProps {
   about: string;
   education: string[];
+  linkedIn?: string;
   peopleAlsoSearchFor: Person[];
 }
 
-const KnowledgePanel = ({ about, education, peopleAlsoSearchFor }: KnowledgePanelProps) => {
+const KnowledgePanel = ({ about, education, linkedIn, peopleAlsoSearchFor }: KnowledgePanelProps) => {
   return (
     <aside className="knowledge-panel bg-card">
       <h2 className="text-xl font-semibold text-foreground mb-4">Christle Lee</h2>
@@ -26,6 +27,26 @@ const KnowledgePanel = ({ about, education, peopleAlsoSearchFor }: KnowledgePane
           {education.join(" · ")}
         </span>
       </div>
+
+      {/* Profiles section */}
+      {linkedIn && (
+        <div className="mb-6">
+          <h3 className="text-base font-normal text-foreground mb-4">Profiles</h3>
+          <div className="flex gap-4">
+            <a
+              href={linkedIn}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-2 group"
+            >
+              <div className="w-12 h-12 rounded-full bg-[#0077B5] flex items-center justify-center group-hover:opacity-80 transition-opacity">
+                <Linkedin className="w-6 h-6 text-white" />
+              </div>
+              <span className="text-xs text-text-gray group-hover:text-link-blue transition-colors">LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      )}
       
       <div>
         <h3 className="text-base font-normal text-foreground mb-4">People also search for</h3>
