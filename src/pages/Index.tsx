@@ -50,7 +50,7 @@ const searchResults = [
 
 const knowledgePanelData = {
   about:
-    'Christle Lee helps Strategic and Enterprise customers unlock the full potential of their tech investments, because nothing haunts her more than million-dollar SaaS contracts collecting digital dust. She navigates "too many cooks in the IT kitchen" and scales AI adoption from experimentation to enterprise-wide execution, knowing that in the age of AI, the biggest competitor isn\'t another company, it\'s an AI agent that never takes PTO.',
+    'Christle Lee helps Strategic and Enterprise customers unlock the full potential of their tech investments, because nothing haunts her more than a million-dollar SaaS contracts collecting digital dust. She navigates "too many cooks in the IT kitchen" and scales AI adoption from experimentation to enterprise-wide execution, knowing that in the age of AI, the biggest competitor isn\'t another company, it\'s an AI agent that never takes PTO.',
   education: [
     "Master of Neuroscience · Kings College London",
     "Bachelor of Psychology (Hons) · Macquarie University",
