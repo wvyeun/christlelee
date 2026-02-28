@@ -77,7 +77,7 @@ const knowledgePanelData = {
 };
 
 const relatedSearches = [
-  "can christle lee read minds",
+  "medium risk tolerance",
   "prompt therapist",
 ];
 
