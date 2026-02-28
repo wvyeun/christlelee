@@ -68,10 +68,10 @@ const KnowledgePanel = ({ about, education, linkedIn, peopleAlsoSearchFor }: Kno
           ))}
         </div>
         
-        <button className="w-full flex items-center justify-center gap-2 py-2 px-4 bg-muted hover:bg-hover-bg rounded-full text-sm text-foreground transition-colors">
+        <a href="https://time.com/collections/time100-ai-2025/" target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center gap-2 py-2 px-4 bg-muted hover:bg-hover-bg rounded-full text-sm text-foreground transition-colors">
           See more
           <ArrowRight className="w-4 h-4" />
-        </button>
+        </a>
       </div>
     </aside>
   );
