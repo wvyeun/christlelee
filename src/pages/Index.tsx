@@ -78,7 +78,7 @@ const knowledgePanelData = {
 
 const relatedSearches = [
   "can christle lee read minds",
-  "christle lee net worth in trillion",
+  "prompt therapist",
 ];
 
 const Index = () => {
