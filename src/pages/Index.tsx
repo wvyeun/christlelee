@@ -77,7 +77,7 @@ const knowledgePanelData = {
 };
 
 const relatedSearches = [
-  "medium risk tolerance",
+  "optimistic (with guardrails)",
   "prompt therapist",
 ];
 
@@ -99,7 +99,7 @@ const Index = () => {
           {/* Name and title */}
           <div className="mb-6 max-w-2xl">
             <h1 className="text-3xl font-normal text-foreground">Christle Lee</h1>
-            <p className="text-sm text-text-gray mt-1">Working slightly ahead of the Roadmap</p>
+            <p className="text-sm text-text-gray mt-1">I believe in AGI. I also believe in seatbelts.</p>
           </div>
 
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
