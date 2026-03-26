@@ -54,7 +54,7 @@ const KnowledgePanel = ({ about, education, linkedIn, peopleAlsoSearchFor }: Kno
         <div className="grid grid-cols-4 gap-3 mb-4">
           {peopleAlsoSearchFor.map((person) => (
             <div key={person.name} className="text-center cursor-pointer group">
-              <div className="w-16 h-16 mx-auto mb-2 rounded-lg overflow-hidden bg-muted">
+              <div className="w-16 h-16 mx-auto mb-1 rounded-lg overflow-hidden bg-muted">
                 <img
                   src={person.image}
                   alt={person.name}
