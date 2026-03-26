@@ -8,7 +8,7 @@ import amazonLogo from "@/assets/amazon.webp";
 import awsLogo from "@/assets/aws.png";
 import accentureLogo from "@/assets/accenture.png";
 import darioAmodei from "@/assets/dario-amodei.jpg";
-import demisHassabis from "@/assets/demis-hassabis.jpg";
+import demisHassabis from "@/assets/demis-hassabis.png";
 import samAltman from "@/assets/sam-altman.jpg";
 import elonMusk from "@/assets/elon-musk.png";
 
