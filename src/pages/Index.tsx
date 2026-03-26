@@ -10,6 +10,7 @@ import accentureLogo from "@/assets/accenture.png";
 import darioAmodei from "@/assets/dario-amodei.jpg";
 import demisHassabis from "@/assets/demis-hassabis.jpg";
 import samAltman from "@/assets/sam-altman.jpg";
+import elonMusk from "@/assets/elon-musk.png";
 
 const searchQuery = "curious, collaborative, customer-focused, continuous learning";
 
@@ -67,7 +68,7 @@ const knowledgePanelData = {
     },
     {
       name: "Elon Musk",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/440px-Elon_Musk_Royal_Society_%28crop2%29.jpg",
+      image: elonMusk,
     },
     {
       name: "Sam Altman",
