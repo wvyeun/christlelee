@@ -58,7 +58,7 @@ const searchResults = [
 
 const knowledgePanelData = {
   about:
-    "In neuroscience, they call it the black box. Turns out humans never really understood it. Now we're building the box that replaces us, while trying to feel irreplaceable. Christle Lee is building id-id.world — a map of what makes us human.",
+    "In neuroscience, they call it the black box. Turns out humans never really understood it. Now we're building the box that replaces us, while trying to feel irreplaceable. Christle Lee is building id-id.world, a map of what makes us human.",
   education: [
     "Master of Neuroscience · Kings College London",
     "Bachelor of Psychology (Hons) · Macquarie University",
