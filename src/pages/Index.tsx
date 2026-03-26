@@ -51,7 +51,7 @@ const searchResults = [
 
 const knowledgePanelData = {
   about:
-    'Christle Lee helps Strategic and Enterprise customers unlock the full potential of their tech investments, because nothing haunts her more than a million-dollar SaaS contracts collecting digital dust. She navigates "too many cooks in the IT kitchen" and scales AI adoption from experimentation to enterprise-wide execution, knowing that in the age of AI, the biggest competitor isn\'t another company, it\'s an AI agent that never takes PTO.',
+    "In neuroscience, they call it the black box. Turns out humans never really understood it. Now we're building the box that replaces us, while trying to feel irreplaceable. Christle Lee is building id-id.world — a map of what makes us human.",
   education: [
     "Master of Neuroscience · Kings College London",
     "Bachelor of Psychology (Hons) · Macquarie University",
