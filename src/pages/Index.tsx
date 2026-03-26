@@ -10,6 +10,7 @@ import accentureLogo from "@/assets/accenture.png";
 import darioAmodei from "@/assets/dario-amodei.jpg";
 import demisHassabis from "@/assets/demis-hassabis.jpg";
 import samAltman from "@/assets/sam-altman.jpg";
+import elonMusk from "@/assets/elon-musk.png";
 
 const searchQuery = "curious, collaborative, customer-focused, continuous learning";
 
