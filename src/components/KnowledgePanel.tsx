@@ -61,7 +61,7 @@ const KnowledgePanel = ({ about, education, linkedIn, peopleAlsoSearchFor }: Kno
                   className="w-full h-full object-cover group-hover:opacity-80 transition-opacity"
                 />
               </div>
-              <span className="text-xs text-link-blue group-hover:underline leading-none block">
+              <span className="text-xs text-link-blue group-hover:underline leading-snug block">
                 {person.name}
               </span>
             </div>
